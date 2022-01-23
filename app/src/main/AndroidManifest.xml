@@ -10,10 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Cicd">
 
-
         <activity
             android:name="com.MainActivity"
-            android:screenOrientation="portrait"
+            android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
