@@ -35,7 +35,7 @@ android {
     firebaseAppDistribution {
         releaseNotes = "Test Notes"
         serviceCredentialsFile = "$rootDir/seasonal-android-firebase.json"
-        groups="saim"
+        groups = "saim"
     }
 }
 
