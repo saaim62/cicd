@@ -38,6 +38,13 @@ android {
             signingConfig signingConfigs.release
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+            firebaseAppDistribution {
+                artifactType="APK"
+                releaseNotes = "Test Notes"
+                serviceCredentialsFile = "$rootDir/cicd-758e8-firebase-adminsdk-dmnci-951d3afa26.json"
+                testers="saaim62@gmail.com"
+            }
         }
         debug {
             signingConfig signingConfigs.debug
@@ -49,11 +56,6 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
-    }
-    firebaseAppDistribution {
-        releaseNotes = "Test Notes"
-        serviceCredentialsFile = "$rootDir/cicd-758e8-firebase-adminsdk-dmnci-951d3afa26.json"
-        groups = "saim"
     }
 }
 
