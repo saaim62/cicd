@@ -52,7 +52,7 @@ android {
     }
     firebaseAppDistribution {
         releaseNotes = "Test Notes"
-        serviceCredentialsFile = "$rootDir/seasonal-android-firebase.json"
+        serviceCredentialsFile = "$rootDir/cicd-758e8-firebase-adminsdk-dmnci-951d3afa26.json"
         groups = "saim"
     }
 }
