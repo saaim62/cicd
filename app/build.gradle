@@ -32,6 +32,11 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    firebaseAppDistribution {
+        releaseNotes = "Test Notes"
+        serviceCredentialsFile = "$rootDir/seasonal-android-firebase.json"
+        groups="saim"
+    }
 }
 
 dependencies {
