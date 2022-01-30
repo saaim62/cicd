@@ -42,7 +42,7 @@ android {
             firebaseAppDistribution {
                 artifactType="APK"
                 releaseNotes = "Test Notes"
-                serviceCredentialsFile = "$rootDir/cicd-758e8-firebase-adminsdk-dmnci-951d3afa26.json"
+                serviceCredentialsFile = "$rootDir/cicd-758e8-cf5d52323b0d.json"
                 testers="saaim62@gmail.com"
             }
         }
