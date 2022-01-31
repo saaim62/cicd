@@ -17,7 +17,7 @@ class ExampleUnitTest {
 
     @Test
     fun sub_isCorrect() {
-        assertEquals(1, 2 - 2)
+        assertEquals(0, 2 - 2)
     }
 
 }
